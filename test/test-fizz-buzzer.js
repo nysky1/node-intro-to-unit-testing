@@ -8,7 +8,7 @@ const fizzBuzzer = require('../fizzBuzzer');
 describe('fizzBuzz', function() {
 
   // test the normal case
-  it('should check fizz buzz logic', function() {
+  it('should check fizz buzz logic, % 5=buzz, 3=fizz, 15=fizz-buzz', function() {
     // range of normal inputs, including
     // notable cases like negative answers
     const normalCases = [
